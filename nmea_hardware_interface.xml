@@ -1,0 +1,9 @@
+<library path="nmea_hardware_interface">
+    <class name="nmea_hardware_interface/GPSHardwareInterface"
+           type="nmea_hardware_interface::GPSHardwareInterface"
+           base_class_type="hardware_interface::SensorInterface">
+      <description>
+        A GPS hardware plugin for the ros2_control.
+      </description>
+    </class>
+</library>
