@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>nmea_hardware_interface</name>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
   <description>ros2 hardware interface for nmea_gps</description>
   <maintainer email="kenntabsk@gmail.com">kenta</maintainer>
   <license>apache 2.0</license>
@@ -23,6 +23,7 @@
   <depend>pkg-config</depend>
   <depend>gtk3</depend>
   <depend>boost</depend>
+  <depend>diagnostic_msgs</depend>
 
   <exec_depend>rviz2</exec_depend>
 
