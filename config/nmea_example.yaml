@@ -1,0 +1,15 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+    
+    geopose_publisher:
+      type: nmea_hardware_interface/GeoPosePublisher
+
+geopose_publisher:
+  ros__parameters:
+    frame_id: gps_link
+    geopose_topic : /geopose_topic
+    publish_rate: 30.0
+    qos: sensor
+    joints:
+      - nmea_gps
