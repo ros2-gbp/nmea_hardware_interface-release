@@ -1,0 +1,12 @@
+Source: ros-humble-nmea-hardware-interface
+Section: misc
+Priority: optional
+Maintainer: kenta <kenntabsk@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, libgtk-3-dev, pkg-config, ros-humble-ament-cmake, ros-humble-ament-lint-auto <!nocheck>, ros-humble-controller-interface, ros-humble-geographic-msgs, ros-humble-hardware-interface, ros-humble-nmea-msgs, ros-humble-ouxt-lint-common <!nocheck>, ros-humble-pluginlib, ros-humble-quaternion-operation, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-realtime-tools, ros-humble-ros2-control, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-nmea-hardware-interface
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, libgtk-3-dev, pkg-config, ros-humble-controller-interface, ros-humble-geographic-msgs, ros-humble-hardware-interface, ros-humble-nmea-msgs, ros-humble-pluginlib, ros-humble-quaternion-operation, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-realtime-tools, ros-humble-ros2-control, ros-humble-rviz2, ros-humble-ros-workspace
+Description: ros2 hardware interface for nmea_gps
