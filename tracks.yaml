@@ -102,5 +102,4 @@ tracks:
     ros_distro: rolling
     vcs_type: git
     vcs_uri: https://github.com/OUXT-Polaris/nmea_hardware_interface.git
-    version: 0.0.1
-    version_saved: :{auto}
+    version: :{auto}
