@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>nmea_hardware_interface</name>
+  <version>0.0.1</version>
+  <description>ros2 hardware interface for nmea_gps</description>
+  <maintainer email="kenntabsk@gmail.com">kenta</maintainer>
+  <license>apache 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>rclcpp_components</depend>
+  <depend>ros2_control</depend>
+  <depend>pluginlib</depend>
+  <depend>realtime_tools</depend>
+  <depend>controller_interface</depend>
+  <depend>hardware_interface</depend>
+  <depend>quaternion_operation</depend>
+  
+  <depend>geographic_msgs</depend>
+  <depend>nmea_msgs</depend>
+  <depend>pkg-config</depend>
+  <depend>gtk3</depend>
+  <depend>boost</depend>
+
+  <exec_depend>rviz2</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ouxt_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
