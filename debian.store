@@ -1,1 +1,1 @@
-{"base": "edeabfb", "parent": "debian/rolling/nmea_hardware_interface", "previous": "30fcfae", "trim": "", "trimbase": ""}
+{"base": "8d5cc58", "parent": "debian/iron/nmea_hardware_interface", "previous": "2e7a7ab", "trim": "", "trimbase": ""}
