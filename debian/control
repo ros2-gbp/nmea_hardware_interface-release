@@ -1,0 +1,12 @@
+Source: ros-iron-nmea-hardware-interface
+Section: misc
+Priority: optional
+Maintainer: kenta <kenntabsk@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, libgtk-3-dev, pkg-config, ros-iron-ament-cmake, ros-iron-ament-lint-auto <!nocheck>, ros-iron-controller-interface, ros-iron-geographic-msgs, ros-iron-hardware-interface, ros-iron-nmea-msgs, ros-iron-ouxt-lint-common <!nocheck>, ros-iron-pluginlib, ros-iron-quaternion-operation, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-realtime-tools, ros-iron-ros2-control, ros-iron-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-nmea-hardware-interface
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, libgtk-3-dev, pkg-config, ros-iron-controller-interface, ros-iron-geographic-msgs, ros-iron-hardware-interface, ros-iron-nmea-msgs, ros-iron-pluginlib, ros-iron-quaternion-operation, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-realtime-tools, ros-iron-ros2-control, ros-iron-rviz2, ros-iron-ros-workspace
+Description: ros2 hardware interface for nmea_gps
