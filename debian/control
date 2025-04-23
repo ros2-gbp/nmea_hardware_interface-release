@@ -1,0 +1,12 @@
+Source: ros-kilted-nmea-hardware-interface
+Section: misc
+Priority: optional
+Maintainer: kenta <kenntabsk@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, libgtk-3-dev, pkg-config, ros-kilted-ament-cmake, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-controller-interface, ros-kilted-geographic-msgs, ros-kilted-hardware-interface, ros-kilted-nmea-msgs, ros-kilted-ouxt-lint-common <!nocheck>, ros-kilted-pluginlib, ros-kilted-quaternion-operation, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-realtime-tools, ros-kilted-ros2-control, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-nmea-hardware-interface
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, libgtk-3-dev, pkg-config, ros-kilted-controller-interface, ros-kilted-geographic-msgs, ros-kilted-hardware-interface, ros-kilted-nmea-msgs, ros-kilted-pluginlib, ros-kilted-quaternion-operation, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-realtime-tools, ros-kilted-ros2-control, ros-kilted-rviz2, ros-kilted-ros-workspace
+Description: ros2 hardware interface for nmea_gps
